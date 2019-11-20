@@ -1,11 +1,10 @@
 <?php
 
-namespace Hcode;
+namespace Hcode ;
 
 use Rain\Tpl;
 
-class Page
-{
+class Page{
     private $tpl;
     private $options = [];
     private $defaults = ["data"=>[]];
@@ -23,14 +22,12 @@ class Page
         );
 
         Tpl::configure( $config );
+
         $this->tpl  = new Tpl;
 
        $this->setData($this->options["data"]);
 
-        $this->tpl->draw("header");
-
-//        if ($this->options['data']) $this->setData($this->options['data']);
-//        if ($this->options['header'] === true) $this->tpl->draw("header", false);
+       $this->tpl->draw("header");
 
     }
 
