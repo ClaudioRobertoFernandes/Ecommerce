@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="830806db-043b-4ca3-8715-59145cf7ac92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views-cache/login.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/header.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +77,6 @@
     <configuration type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script." />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -103,7 +93,8 @@
       <workItem from="1574118835035" duration="8127000" />
       <workItem from="1574210452436" duration="2641000" />
       <workItem from="1574292274423" duration="6914000" />
-      <workItem from="1574378606376" duration="9952000" />
+      <workItem from="1574378606376" duration="10240000" />
+      <workItem from="1574722223043" duration="3972000" />
     </task>
     <servers />
   </component>

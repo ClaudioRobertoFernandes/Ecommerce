@@ -3,6 +3,7 @@ namespace Hcode;
 
 class Model
 {
+    const SESSION = "User";
     private $values = [];
 
     /**
@@ -29,7 +30,22 @@ class Model
                  * Parei aos 22m da aula 104 admin login
                 */
         }
+    }
 
+    public function setData($data = array())
+    {
+
+        foreach ($data as $key => $values){
+
+            $this->{"set".$key}($values);
+
+        }
+
+    }
+
+    public function getValues()
+    {
+        return $this->values;
     }
 }
 
