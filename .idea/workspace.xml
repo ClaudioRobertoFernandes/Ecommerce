@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="830806db-043b-4ca3-8715-59145cf7ac92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views-cache/users-update.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views-cache/users.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/users-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/users-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/header.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/header.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +100,7 @@
       <workItem from="1574210452436" duration="2641000" />
       <workItem from="1574292274423" duration="6914000" />
       <workItem from="1574378606376" duration="10240000" />
-      <workItem from="1574722223043" duration="3972000" />
+      <workItem from="1574722223043" duration="10037000" />
     </task>
     <servers />
   </component>
