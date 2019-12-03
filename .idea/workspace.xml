@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="830806db-043b-4ca3-8715-59145cf7ac92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views-cache/users-update.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views-cache/users.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/users-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/users-update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/admin/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/header.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/header.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views-cache/users-update.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/users-update.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/users-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/users-update.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,25 @@
       <executable path="composer" />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="taobuys" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,6 +52,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Ecommerce\.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
@@ -52,7 +77,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
   </component>
@@ -100,7 +127,10 @@
       <workItem from="1574210452436" duration="2641000" />
       <workItem from="1574292274423" duration="6914000" />
       <workItem from="1574378606376" duration="10240000" />
-      <workItem from="1574722223043" duration="10037000" />
+      <workItem from="1574722223043" duration="10231000" />
+      <workItem from="1574982750101" duration="5429000" />
+      <workItem from="1575208289648" duration="417000" />
+      <workItem from="1575329450448" duration="6991000" />
     </task>
     <servers />
   </component>

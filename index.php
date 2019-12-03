@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 
 require_once("vendor/autoload.php");
@@ -14,8 +14,8 @@ $app->config('debug', true);
 
 /**
  * Rota padrão para index
-*/
-$app->get('/', function() {
+ */
+$app->get('/', function () {
 
     $page = new Page();
 
@@ -26,7 +26,7 @@ $app->get('/', function() {
  * Rota padrão para admin
  */
 
-$app->get('/admin', function() {
+$app->get('/admin', function () {
     User::verifyLogin();
     $page = new PageAdmin();
 
@@ -37,18 +37,18 @@ $app->get('/admin', function() {
 /**
  * Rota padrão para login admin
  */
-$app->get('/admin/login', function() {
+$app->get('/admin/login', function () {
 
     $page = new PageAdmin([
-        "header"=>false,
-        "footer"=>false
+        "header" => false,
+        "footer" => false
     ]);
 
     $page->setTpl("login");
 
 });
 
-$app->get('/admin/logout', function() {
+$app->get('/admin/logout', function () {
 
     User::logout();
 
@@ -58,9 +58,9 @@ $app->get('/admin/logout', function() {
 /**
  * Rota padrão para login admin via post
  */
-$app->post('/admin/login', function() {
+$app->post('/admin/login', function () {
 
-    User::login($_POST["login"],$_POST["password"]);
+    User::login($_POST["login"], $_POST["password"]);
     header("Location: /admin");
     exit;
 
@@ -68,7 +68,7 @@ $app->post('/admin/login', function() {
 /**
  * A funcionalidade de Criptografia ainda nã esta funcionando
  * até este momento mas nas proximas aulas será implementada
-*/
+ */
 $app->get("/admin/users/create", function () {
 
     User::verifyLogin();
@@ -79,7 +79,7 @@ $app->get("/admin/users/create", function () {
 
     $_POST['despassword'] = password_hash($_POST["despassword"], PASSWORD_DEFAULT, [
 
-        "cost"=>12
+        "cost" => 12
 
     ]);
 
@@ -104,35 +104,63 @@ $app->get("/admin/users", function () {
 
 });
 
-$app->get("/admin/users/:iduser", function ($iduser) {
+$app->get("/admin/users/:iduser/delete", function ($iduser) {
 
     User::verifyLogin();
 
-//    $user = new User();
+    $user = new User();
 
-//    $user->get((int)$iduser);
+    $user->get((int)$iduser);
 
+    $user->delete();
+
+    header("Location: /admin/users");
+    exit;
+
+});
+
+$app->get("/admin/users/:iduser", function ($iduser) {
+    User::verifyLogin();
+    $user = new User();
+    $user->get((int)$iduser);
     $page = new PageAdmin();
-
-//    $page->setTpl("users-update",array("user"=>$user->getValues()));
-
+    $page->setTpl("users-update",array("user"=>$user->getValues()));
 });
 
 $app->post("/admin/users/create", function () {
 
     User::verifyLogin();
 
+    $user = new User();
+
+    $_POST["inadmin"] = (isset($_POST["inadmin"]))?1:0;
+
+    $user->setData($_POST);
+
+    $user->save();
+
+    header("Location: /admin/users");
+    exit;
+
 });
 
-$app->get("/admin/users/:iduser/delete", function ($iduser) {
-
-    User::verifyLogin();
-
-});
 
 $app->post("/admin/users/:iduser", function ($iduser) {
 
     User::verifyLogin();
+
+    $user = new User();
+
+    $_POST["inadmin"] = (isset($_POST["inadmin"]))?1:0;
+
+    $user->get((int)$iduser);
+
+    $user->setData($_POST);
+
+    $user->update();
+
+    header("Location: /admin/users");
+    exit;
 
 });
 
