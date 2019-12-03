@@ -69,26 +69,35 @@ $app->post('/admin/login', function () {
  * A funcionalidade de Criptografia ainda nã esta funcionando
  * até este momento mas nas proximas aulas será implementada
  */
-$app->get("/admin/users/create", function () {
+//$app->get("/admin/users/create", function () {
+//
+//    User::verifyLogin();
+//
+//    $user = new User();
+//
+//    $_POST["inadmin"] = (isset($_POST["inadmin"])) ? 1 : 0;
+//
+//    $_POST['despassword'] = password_hash($_POST["despassword"], PASSWORD_DEFAULT, [
+//
+//        "cost" => 12
+//    ]);
+
+//    $user->setData($_POST);
+//
+//    $user->save();
+//
+//    header("Location: /admin/users");
+//    exit;
+//
+//});
+
+$app->get('/admin/users/create', function() {
 
     User::verifyLogin();
 
-    $user = new User();
+    $page = new PageAdmin();
 
-    $_POST["inadmin"] = (isset($_POST["inadmin"])) ? 1 : 0;
-
-    $_POST['despassword'] = password_hash($_POST["despassword"], PASSWORD_DEFAULT, [
-
-        "cost" => 12
-
-    ]);
-
-    $user->setData($_POST);
-
-    $user->save();
-
-    header("Location: /admin/users");
-    exit;
+    $page->setTpl("users-create");
 
 });
 

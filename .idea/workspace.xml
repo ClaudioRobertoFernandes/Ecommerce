@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="830806db-043b-4ca3-8715-59145cf7ac92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/admin/dist/css/AdminLTE.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views-cache/users-update.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views-cache/users-update.10c6f08c60af7b41fbf35234d682a5a3.rtpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/users-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/users-update.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +123,8 @@
       <workItem from="1574722223043" duration="10231000" />
       <workItem from="1574982750101" duration="5429000" />
       <workItem from="1575208289648" duration="417000" />
-      <workItem from="1575329450448" duration="6991000" />
+      <workItem from="1575329450448" duration="7590000" />
+      <workItem from="1575412985529" duration="980000" />
     </task>
     <servers />
   </component>
